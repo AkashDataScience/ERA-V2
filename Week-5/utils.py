@@ -275,7 +275,7 @@ def get_criterion():
     return criterion
     
 def start_training(num_epochs, model, device, train_loader, test_loader, optimizer, criterion, scheduler):
-    """Start training model
+    """Method to start training the model
 
     Args:
         num_epochs (int): number of epochs
@@ -308,6 +308,14 @@ def start_training(num_epochs, model, device, train_loader, test_loader, optimiz
     return train_losses, train_acc, test_losses, test_acc
 
 def plot_accuracy_loss_graphs(train_losses, train_acc, test_losses, test_acc):
+    """Method to plot loss and accuracy of training and testing
+
+    Args:
+        train_losses (List): List containing loss of model after each epoch on training data
+        train_acc (List): List containing accuracy of model after each epoch on training data
+        test_losses (List): List containing loss of model after each epoch on testing data
+        test_acc (List): List containing accuracy of model after each epoch on testing data
+    """
     fig, axs = plt.subplots(2,2,figsize=(15,10))
     # Plot training losses
     axs[0, 0].plot(train_losses)
