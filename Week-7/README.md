@@ -1,7 +1,7 @@
 # Step 1
 ## Target:
 1. Get Setup Right
-2. Write light skeleton of our model
+2. Write a light skeleton of our model
 3. Add batch normalization
 
 ## Results:
@@ -10,9 +10,9 @@
 3. Best test accuracy: 99.06
 
 ## Analysis:
-1. In last epoch difference between train and test accuracy is high. That means, model is over fitting. Adding regularisation might help.
-2. Model is stuck around 99. We have to increase model capacity.
-3. As we are increasing model capacity, adding GAP might be a good idea.
+1. In the last epoch, difference between train and test accuracy is high. That means the model is overfitting. Adding regularization might help.
+2. The model is stuck around 99. We have to increase model capacity.
+3. adding GAP might be a good idea as we increase model capacity.
 
 # Step 2
 ## Target:
@@ -26,14 +26,14 @@
 3. Best test accuracy: 99.22
 
 ## Analysis:
-1. The model is under fitting.
-2. Adding slight rotation and other image augmentation might be helpfull.
-3. Playing with learning rate might help with under fitting.
+1. The model is underfitting.
+2. Adding slight rotation and other image augmentation might be helpful.
+3. Playing with learning rate might help with underfitting.
 
 # Step 3
 ## Target:
 1. Add image augmentation
-2. Try different learning rate and step size in scheduler
+2. Try different learning rates and step sizes in the scheduler
 
 ## Results:
 1. Parameters: 7760
@@ -42,5 +42,5 @@
 
 ## Analysis:
 1. This model achieved 99.45 accuracy on test data in 15 epochs.
-2. Model statisfies all criterion required for this assignment.
+2. The model satisfies all criteria required for this assignment.
 3. Using grid search for LR and step_size might be a good idea.
