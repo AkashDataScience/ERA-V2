@@ -22,7 +22,7 @@
 4. Upload your complete assignment on GitHub and share the link on LMS
 
 # Introduction
-The goal of this assignment is to compate different normalization layer: **GroupNorm**, **BatchNorm** and **LayerNorm**. Three different notebooks are created using three different normalization methods. Each notebook statisfies criteria given in assignment. 
+The goal of this assignment is to compare different normalization layer: **GroupNorm**, **BatchNorm** and **LayerNorm**. Three different notebooks are created using three different normalization methods. Each notebook statisfies criteria given in assignment. 
 
 # Metrics
 |Model|Notebook|Train Accuracy| Test Accuracy|
@@ -32,7 +32,7 @@ Batch Normalization|[BatchNorm](./ERA_V2_S8_BatchNorm.ipynb)|70.09|70.21
 Layer Normalization|[LayerNorm](./ERA_V2_S8_LayerNorm.ipynb)|70.95|72.27
 
 # Findings
-Batch normalization acheved 70% accuracy with just 15K parameters. To achieve simillar results Group normalization and Batch normalization needs more parameters for same achitecture. 
+Batch normalization acheved 70% accuracy with just 15K parameters. To achieve simillar results Group normalization and Layer normalization needs more parameters for same achitecture. 
 
 # Performance Graphs
 ## Group Normalization
