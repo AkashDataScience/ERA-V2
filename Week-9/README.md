@@ -93,204 +93,304 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
 
 # Training log
     Epoch 1
-    Train: Loss=1.6548 Batch_id=390 Accuracy=34.22: 100%|██████████| 391/391 [00:20<00:00, 19.04it/s]
-    Test set: Average loss: 1.5073, Accuracy: 4442/10000 (44.42%)
+    Train: Loss=1.7162 Batch_id=390 Accuracy=33.76: 100%|██████████| 391/391 [00:22<00:00, 17.47it/s]
+    Test set: Average loss: 1.5116, Accuracy: 4462/10000 (44.62%)
 
     Epoch 2
-    Train: Loss=1.5091 Batch_id=390 Accuracy=44.45: 100%|██████████| 391/391 [00:17<00:00, 22.42it/s]
-    Test set: Average loss: 1.2784, Accuracy: 5448/10000 (54.48%)
+    Train: Loss=1.4815 Batch_id=390 Accuracy=43.85: 100%|██████████| 391/391 [00:17<00:00, 22.03it/s]
+    Test set: Average loss: 1.3093, Accuracy: 5273/10000 (52.73%)
 
     Epoch 3
-    Train: Loss=1.4269 Batch_id=390 Accuracy=49.59: 100%|██████████| 391/391 [00:17<00:00, 22.91it/s]
-    Test set: Average loss: 1.1268, Accuracy: 5912/10000 (59.12%)
+    Train: Loss=1.3626 Batch_id=390 Accuracy=48.72: 100%|██████████| 391/391 [00:18<00:00, 20.80it/s]
+    Test set: Average loss: 1.1662, Accuracy: 5772/10000 (57.72%)
 
     Epoch 4
-    Train: Loss=1.0367 Batch_id=390 Accuracy=53.37: 100%|██████████| 391/391 [00:17<00:00, 22.32it/s]
-    Test set: Average loss: 1.0305, Accuracy: 6321/10000 (63.21%)
+    Train: Loss=1.0554 Batch_id=390 Accuracy=52.60: 100%|██████████| 391/391 [00:17<00:00, 22.30it/s]
+    Test set: Average loss: 1.0514, Accuracy: 6215/10000 (62.15%)
 
     Epoch 5
-    Train: Loss=1.1120 Batch_id=390 Accuracy=56.39: 100%|██████████| 391/391 [00:17<00:00, 22.81it/s]
-    Test set: Average loss: 0.9644, Accuracy: 6570/10000 (65.70%)
+    Train: Loss=1.1430 Batch_id=390 Accuracy=55.16: 100%|██████████| 391/391 [00:18<00:00, 20.96it/s]
+    Test set: Average loss: 0.9812, Accuracy: 6470/10000 (64.70%)
 
     Epoch 6
-    Train: Loss=1.1826 Batch_id=390 Accuracy=58.07: 100%|██████████| 391/391 [00:17<00:00, 21.92it/s]
-    Test set: Average loss: 0.9079, Accuracy: 6817/10000 (68.17%)
+    Train: Loss=1.2122 Batch_id=390 Accuracy=57.32: 100%|██████████| 391/391 [00:17<00:00, 22.40it/s]
+    Test set: Average loss: 0.9366, Accuracy: 6722/10000 (67.22%)
 
     Epoch 7
-    Train: Loss=1.1674 Batch_id=390 Accuracy=60.17: 100%|██████████| 391/391 [00:17<00:00, 22.98it/s]
-    Test set: Average loss: 0.8390, Accuracy: 7055/10000 (70.55%)
+    Train: Loss=1.2412 Batch_id=390 Accuracy=58.96: 100%|██████████| 391/391 [00:18<00:00, 21.64it/s]
+    Test set: Average loss: 0.8757, Accuracy: 6890/10000 (68.90%)
 
     Epoch 8
-    Train: Loss=0.9945 Batch_id=390 Accuracy=61.18: 100%|██████████| 391/391 [00:17<00:00, 21.80it/s]
-    Test set: Average loss: 0.8094, Accuracy: 7194/10000 (71.94%)
+    Train: Loss=1.0137 Batch_id=390 Accuracy=60.53: 100%|██████████| 391/391 [00:18<00:00, 20.70it/s]
+    Test set: Average loss: 0.8366, Accuracy: 7067/10000 (70.67%)
 
     Epoch 9
-    Train: Loss=1.0792 Batch_id=390 Accuracy=62.86: 100%|██████████| 391/391 [00:16<00:00, 23.19it/s]
-    Test set: Average loss: 0.8140, Accuracy: 7190/10000 (71.90%)
+    Train: Loss=0.9566 Batch_id=390 Accuracy=62.04: 100%|██████████| 391/391 [00:17<00:00, 22.14it/s]
+    Test set: Average loss: 0.8472, Accuracy: 7042/10000 (70.42%)
 
     Epoch 10
-    Train: Loss=0.9573 Batch_id=390 Accuracy=63.71: 100%|██████████| 391/391 [00:18<00:00, 21.10it/s]
-    Test set: Average loss: 0.7445, Accuracy: 7408/10000 (74.08%)
+    Train: Loss=1.0954 Batch_id=390 Accuracy=62.88: 100%|██████████| 391/391 [00:18<00:00, 21.51it/s]
+    Test set: Average loss: 0.7690, Accuracy: 7313/10000 (73.13%)
 
     Epoch 11
-    Train: Loss=1.2978 Batch_id=390 Accuracy=64.17: 100%|██████████| 391/391 [00:16<00:00, 23.20it/s]
-    Test set: Average loss: 0.7077, Accuracy: 7574/10000 (75.74%)
+    Train: Loss=1.2396 Batch_id=390 Accuracy=63.89: 100%|██████████| 391/391 [00:17<00:00, 22.06it/s]
+    Test set: Average loss: 0.7630, Accuracy: 7363/10000 (73.63%)
 
     Epoch 12
-    Train: Loss=1.0853 Batch_id=390 Accuracy=65.54: 100%|██████████| 391/391 [00:17<00:00, 21.83it/s]
-    Test set: Average loss: 0.7187, Accuracy: 7566/10000 (75.66%)
+    Train: Loss=1.0567 Batch_id=390 Accuracy=64.82: 100%|██████████| 391/391 [00:18<00:00, 21.10it/s]
+    Test set: Average loss: 0.7361, Accuracy: 7449/10000 (74.49%)
 
     Epoch 13
-    Train: Loss=0.9335 Batch_id=390 Accuracy=65.97: 100%|██████████| 391/391 [00:16<00:00, 23.08it/s]
-    Test set: Average loss: 0.6934, Accuracy: 7610/10000 (76.10%)
+    Train: Loss=0.8463 Batch_id=390 Accuracy=65.55: 100%|██████████| 391/391 [00:17<00:00, 21.86it/s]
+    Test set: Average loss: 0.7106, Accuracy: 7552/10000 (75.52%)
 
     Epoch 14
-    Train: Loss=1.0455 Batch_id=390 Accuracy=66.48: 100%|██████████| 391/391 [00:17<00:00, 22.12it/s]
-    Test set: Average loss: 0.6779, Accuracy: 7632/10000 (76.32%)
+    Train: Loss=1.1188 Batch_id=390 Accuracy=66.27: 100%|██████████| 391/391 [00:18<00:00, 21.18it/s]
+    Test set: Average loss: 0.7014, Accuracy: 7588/10000 (75.88%)
 
     Epoch 15
-    Train: Loss=1.0111 Batch_id=390 Accuracy=67.24: 100%|██████████| 391/391 [00:16<00:00, 23.09it/s]
-    Test set: Average loss: 0.6754, Accuracy: 7665/10000 (76.65%)
+    Train: Loss=1.0696 Batch_id=390 Accuracy=66.92: 100%|██████████| 391/391 [00:17<00:00, 22.14it/s]
+    Test set: Average loss: 0.6915, Accuracy: 7626/10000 (76.26%)
 
     Epoch 16
-    Train: Loss=0.9188 Batch_id=390 Accuracy=67.50: 100%|██████████| 391/391 [00:18<00:00, 21.44it/s]
-    Test set: Average loss: 0.6274, Accuracy: 7819/10000 (78.19%)
+    Train: Loss=0.8590 Batch_id=390 Accuracy=67.41: 100%|██████████| 391/391 [00:19<00:00, 20.42it/s]
+    Test set: Average loss: 0.6438, Accuracy: 7762/10000 (77.62%)
 
     Epoch 17
-    Train: Loss=1.0016 Batch_id=390 Accuracy=68.13: 100%|██████████| 391/391 [00:16<00:00, 23.06it/s]
-    Test set: Average loss: 0.6277, Accuracy: 7874/10000 (78.74%)
+    Train: Loss=0.9428 Batch_id=390 Accuracy=67.60: 100%|██████████| 391/391 [00:17<00:00, 22.05it/s]
+    Test set: Average loss: 0.6696, Accuracy: 7693/10000 (76.93%)
 
     Epoch 18
-    Train: Loss=0.9930 Batch_id=390 Accuracy=68.93: 100%|██████████| 391/391 [00:17<00:00, 22.63it/s]
-    Test set: Average loss: 0.6387, Accuracy: 7816/10000 (78.16%)
+    Train: Loss=0.9588 Batch_id=390 Accuracy=68.47: 100%|██████████| 391/391 [00:18<00:00, 21.04it/s]
+    Test set: Average loss: 0.6319, Accuracy: 7824/10000 (78.24%)
 
     Epoch 19
-    Train: Loss=0.9653 Batch_id=390 Accuracy=68.87: 100%|██████████| 391/391 [00:17<00:00, 22.73it/s]
-    Test set: Average loss: 0.5988, Accuracy: 7947/10000 (79.47%)
+    Train: Loss=0.9859 Batch_id=390 Accuracy=68.68: 100%|██████████| 391/391 [00:19<00:00, 20.52it/s]
+    Test set: Average loss: 0.6070, Accuracy: 7931/10000 (79.31%)
 
     Epoch 20
-    Train: Loss=1.0073 Batch_id=390 Accuracy=69.30: 100%|██████████| 391/391 [00:17<00:00, 22.33it/s]
-    Test set: Average loss: 0.5844, Accuracy: 7989/10000 (79.89%)
+    Train: Loss=0.9983 Batch_id=390 Accuracy=68.88: 100%|██████████| 391/391 [00:18<00:00, 20.88it/s]
+    Test set: Average loss: 0.6081, Accuracy: 7918/10000 (79.18%)
 
     Epoch 21
-    Train: Loss=0.9455 Batch_id=390 Accuracy=69.59: 100%|██████████| 391/391 [00:17<00:00, 22.81it/s]
-    Test set: Average loss: 0.6058, Accuracy: 7929/10000 (79.29%)
+    Train: Loss=0.9462 Batch_id=390 Accuracy=69.25: 100%|██████████| 391/391 [00:17<00:00, 22.58it/s]
+    Test set: Average loss: 0.6196, Accuracy: 7867/10000 (78.67%)
 
     Epoch 22
-    Train: Loss=0.9990 Batch_id=390 Accuracy=69.77: 100%|██████████| 391/391 [00:18<00:00, 20.94it/s]
-    Test set: Average loss: 0.5898, Accuracy: 7989/10000 (79.89%)
+    Train: Loss=1.0427 Batch_id=390 Accuracy=69.61: 100%|██████████| 391/391 [00:18<00:00, 21.18it/s]
+    Test set: Average loss: 0.5978, Accuracy: 7992/10000 (79.92%)
 
     Epoch 23
-    Train: Loss=0.8508 Batch_id=390 Accuracy=70.48: 100%|██████████| 391/391 [00:17<00:00, 22.70it/s]
-    Test set: Average loss: 0.5847, Accuracy: 8021/10000 (80.21%)
+    Train: Loss=0.9019 Batch_id=390 Accuracy=70.13: 100%|██████████| 391/391 [00:17<00:00, 22.66it/s]
+    Test set: Average loss: 0.5733, Accuracy: 8055/10000 (80.55%)
 
     Epoch 24
-    Train: Loss=0.7072 Batch_id=390 Accuracy=70.48: 100%|██████████| 391/391 [00:17<00:00, 22.09it/s]
-    Test set: Average loss: 0.5664, Accuracy: 8049/10000 (80.49%)
+    Train: Loss=0.6569 Batch_id=390 Accuracy=70.56: 100%|██████████| 391/391 [00:18<00:00, 20.71it/s]
+    Test set: Average loss: 0.5794, Accuracy: 8021/10000 (80.21%)
 
     Epoch 25
-    Train: Loss=0.8301 Batch_id=390 Accuracy=70.79: 100%|██████████| 391/391 [00:17<00:00, 22.42it/s]
-    Test set: Average loss: 0.5654, Accuracy: 8082/10000 (80.82%)
+    Train: Loss=0.8825 Batch_id=390 Accuracy=70.26: 100%|██████████| 391/391 [00:17<00:00, 22.54it/s]
+    Test set: Average loss: 0.5620, Accuracy: 8059/10000 (80.59%)
 
     Epoch 26
-    Train: Loss=0.6301 Batch_id=390 Accuracy=70.93: 100%|██████████| 391/391 [00:17<00:00, 22.17it/s]
-    Test set: Average loss: 0.5611, Accuracy: 8069/10000 (80.69%)
+    Train: Loss=0.6786 Batch_id=390 Accuracy=70.64: 100%|██████████| 391/391 [00:18<00:00, 20.99it/s]
+    Test set: Average loss: 0.5731, Accuracy: 8042/10000 (80.42%)
 
     Epoch 27
-    Train: Loss=0.7438 Batch_id=390 Accuracy=71.72: 100%|██████████| 391/391 [00:17<00:00, 22.41it/s]
-    Test set: Average loss: 0.5411, Accuracy: 8163/10000 (81.63%)
+    Train: Loss=0.9419 Batch_id=390 Accuracy=71.42: 100%|██████████| 391/391 [00:17<00:00, 22.42it/s]
+    Test set: Average loss: 0.5493, Accuracy: 8119/10000 (81.19%)
 
     Epoch 28
-    Train: Loss=1.0077 Batch_id=390 Accuracy=71.70: 100%|██████████| 391/391 [00:18<00:00, 21.21it/s]
-    Test set: Average loss: 0.5336, Accuracy: 8170/10000 (81.70%)
+    Train: Loss=1.1358 Batch_id=390 Accuracy=71.32: 100%|██████████| 391/391 [00:18<00:00, 20.74it/s]
+    Test set: Average loss: 0.5383, Accuracy: 8150/10000 (81.50%)
 
     Epoch 29
-    Train: Loss=0.8513 Batch_id=390 Accuracy=71.64: 100%|██████████| 391/391 [00:17<00:00, 22.44it/s]
-    Test set: Average loss: 0.5314, Accuracy: 8209/10000 (82.09%)
+    Train: Loss=0.8445 Batch_id=390 Accuracy=71.48: 100%|██████████| 391/391 [00:17<00:00, 22.39it/s]
+    Test set: Average loss: 0.5397, Accuracy: 8190/10000 (81.90%)
 
     Epoch 30
-    Train: Loss=0.8292 Batch_id=390 Accuracy=72.05: 100%|██████████| 391/391 [00:17<00:00, 22.54it/s]
-    Test set: Average loss: 0.5274, Accuracy: 8198/10000 (81.98%)
+    Train: Loss=0.8401 Batch_id=390 Accuracy=71.63: 100%|██████████| 391/391 [00:19<00:00, 19.99it/s]
+    Test set: Average loss: 0.5250, Accuracy: 8217/10000 (82.17%)
 
     Epoch 31
-    Train: Loss=0.8463 Batch_id=390 Accuracy=71.97: 100%|██████████| 391/391 [00:17<00:00, 22.91it/s]
-    Test set: Average loss: 0.5216, Accuracy: 8228/10000 (82.28%)
+    Train: Loss=0.8546 Batch_id=390 Accuracy=71.76: 100%|██████████| 391/391 [00:17<00:00, 22.41it/s]
+    Test set: Average loss: 0.5259, Accuracy: 8228/10000 (82.28%)
 
     Epoch 32
-    Train: Loss=0.7464 Batch_id=390 Accuracy=72.49: 100%|██████████| 391/391 [00:17<00:00, 22.05it/s]
-    Test set: Average loss: 0.5156, Accuracy: 8218/10000 (82.18%)
+    Train: Loss=0.7799 Batch_id=390 Accuracy=72.22: 100%|██████████| 391/391 [00:18<00:00, 21.38it/s]
+    Test set: Average loss: 0.5031, Accuracy: 8284/10000 (82.84%)
 
     Epoch 33
-    Train: Loss=0.9696 Batch_id=390 Accuracy=72.39: 100%|██████████| 391/391 [00:17<00:00, 22.40it/s]
-    Test set: Average loss: 0.5269, Accuracy: 8199/10000 (81.99%)
+    Train: Loss=0.8186 Batch_id=390 Accuracy=72.36: 100%|██████████| 391/391 [00:17<00:00, 22.28it/s]
+    Test set: Average loss: 0.5235, Accuracy: 8250/10000 (82.50%)
 
     Epoch 34
-    Train: Loss=0.7304 Batch_id=390 Accuracy=72.95: 100%|██████████| 391/391 [00:19<00:00, 20.43it/s]
-    Test set: Average loss: 0.5149, Accuracy: 8261/10000 (82.61%)
+    Train: Loss=0.7783 Batch_id=390 Accuracy=72.44: 100%|██████████| 391/391 [00:18<00:00, 21.66it/s]
+    Test set: Average loss: 0.5241, Accuracy: 8250/10000 (82.50%)
 
     Epoch 35
-    Train: Loss=0.8937 Batch_id=390 Accuracy=73.04: 100%|██████████| 391/391 [00:17<00:00, 22.38it/s]
-    Test set: Average loss: 0.4862, Accuracy: 8366/10000 (83.66%)
+    Train: Loss=0.9532 Batch_id=390 Accuracy=72.69: 100%|██████████| 391/391 [00:18<00:00, 21.37it/s]
+    Test set: Average loss: 0.5059, Accuracy: 8260/10000 (82.60%)
 
     Epoch 36
-    Train: Loss=0.7677 Batch_id=390 Accuracy=73.07: 100%|██████████| 391/391 [00:18<00:00, 21.43it/s]
-    Test set: Average loss: 0.4915, Accuracy: 8312/10000 (83.12%)
+    Train: Loss=0.7455 Batch_id=390 Accuracy=72.96: 100%|██████████| 391/391 [00:17<00:00, 22.53it/s]
+    Test set: Average loss: 0.5013, Accuracy: 8290/10000 (82.90%)
 
     Epoch 37
-    Train: Loss=0.6255 Batch_id=390 Accuracy=73.38: 100%|██████████| 391/391 [00:17<00:00, 22.93it/s]
-    Test set: Average loss: 0.5017, Accuracy: 8303/10000 (83.03%)
+    Train: Loss=0.5715 Batch_id=390 Accuracy=73.09: 100%|██████████| 391/391 [00:17<00:00, 22.28it/s]
+    Test set: Average loss: 0.4993, Accuracy: 8327/10000 (83.27%)
 
     Epoch 38
-    Train: Loss=0.7575 Batch_id=390 Accuracy=73.37: 100%|██████████| 391/391 [00:18<00:00, 21.63it/s]
-    Test set: Average loss: 0.4958, Accuracy: 8283/10000 (82.83%)
+    Train: Loss=0.6999 Batch_id=390 Accuracy=73.08: 100%|██████████| 391/391 [00:17<00:00, 22.44it/s]
+    Test set: Average loss: 0.4885, Accuracy: 8329/10000 (83.29%)
 
     Epoch 39
-    Train: Loss=0.6788 Batch_id=390 Accuracy=73.51: 100%|██████████| 391/391 [00:17<00:00, 22.47it/s]
-    Test set: Average loss: 0.4905, Accuracy: 8322/10000 (83.22%)
+    Train: Loss=0.7130 Batch_id=390 Accuracy=73.03: 100%|██████████| 391/391 [00:17<00:00, 22.52it/s]
+    Test set: Average loss: 0.4818, Accuracy: 8370/10000 (83.70%)
 
     Epoch 40
-    Train: Loss=0.7440 Batch_id=390 Accuracy=73.87: 100%|██████████| 391/391 [00:18<00:00, 21.53it/s]
-    Test set: Average loss: 0.4859, Accuracy: 8352/10000 (83.52%)
+    Train: Loss=0.8696 Batch_id=390 Accuracy=73.26: 100%|██████████| 391/391 [00:17<00:00, 22.42it/s]
+    Test set: Average loss: 0.4788, Accuracy: 8365/10000 (83.65%)
 
     Epoch 41
-    Train: Loss=0.8027 Batch_id=390 Accuracy=73.84: 100%|██████████| 391/391 [00:17<00:00, 22.33it/s]
-    Test set: Average loss: 0.4861, Accuracy: 8354/10000 (83.54%)
+    Train: Loss=0.8408 Batch_id=390 Accuracy=73.55: 100%|██████████| 391/391 [00:18<00:00, 21.14it/s]
+    Test set: Average loss: 0.4825, Accuracy: 8345/10000 (83.45%)
 
     Epoch 42
-    Train: Loss=0.8620 Batch_id=390 Accuracy=73.88: 100%|██████████| 391/391 [00:18<00:00, 21.35it/s]
-    Test set: Average loss: 0.4635, Accuracy: 8429/10000 (84.29%)
+    Train: Loss=0.8698 Batch_id=390 Accuracy=73.75: 100%|██████████| 391/391 [00:17<00:00, 22.24it/s]
+    Test set: Average loss: 0.4719, Accuracy: 8429/10000 (84.29%)
 
     Epoch 43
-    Train: Loss=0.8501 Batch_id=390 Accuracy=74.25: 100%|██████████| 391/391 [00:17<00:00, 22.66it/s]
-    Test set: Average loss: 0.4739, Accuracy: 8364/10000 (83.64%)
+    Train: Loss=0.8176 Batch_id=390 Accuracy=73.49: 100%|██████████| 391/391 [00:17<00:00, 22.72it/s]
+    Test set: Average loss: 0.4756, Accuracy: 8375/10000 (83.75%)
 
     Epoch 44
-    Train: Loss=0.7002 Batch_id=390 Accuracy=74.27: 100%|██████████| 391/391 [00:18<00:00, 21.34it/s]
-    Test set: Average loss: 0.4585, Accuracy: 8426/10000 (84.26%)
+    Train: Loss=0.8419 Batch_id=390 Accuracy=73.66: 100%|██████████| 391/391 [00:17<00:00, 22.62it/s]
+    Test set: Average loss: 0.4721, Accuracy: 8368/10000 (83.68%)
 
     Epoch 45
-    Train: Loss=0.9156 Batch_id=390 Accuracy=74.27: 100%|██████████| 391/391 [00:18<00:00, 21.13it/s]
-    Test set: Average loss: 0.4697, Accuracy: 8386/10000 (83.86%)
+    Train: Loss=0.8815 Batch_id=390 Accuracy=74.02: 100%|██████████| 391/391 [00:17<00:00, 22.58it/s]
+    Test set: Average loss: 0.4826, Accuracy: 8378/10000 (83.78%)
 
     Epoch 46
-    Train: Loss=0.6463 Batch_id=390 Accuracy=74.51: 100%|██████████| 391/391 [00:18<00:00, 21.36it/s]
-    Test set: Average loss: 0.4565, Accuracy: 8460/10000 (84.60%)
+    Train: Loss=0.7588 Batch_id=390 Accuracy=73.96: 100%|██████████| 391/391 [00:18<00:00, 21.09it/s]
+    Test set: Average loss: 0.4764, Accuracy: 8397/10000 (83.97%)
 
     Epoch 47
-    Train: Loss=0.6693 Batch_id=390 Accuracy=74.41: 100%|██████████| 391/391 [00:17<00:00, 22.65it/s]
-    Test set: Average loss: 0.4608, Accuracy: 8441/10000 (84.41%)
+    Train: Loss=0.7131 Batch_id=390 Accuracy=74.31: 100%|██████████| 391/391 [00:17<00:00, 21.73it/s]
+    Test set: Average loss: 0.4730, Accuracy: 8416/10000 (84.16%)
 
     Epoch 48
-    Train: Loss=0.6569 Batch_id=390 Accuracy=75.01: 100%|██████████| 391/391 [00:18<00:00, 21.19it/s]
-    Test set: Average loss: 0.4610, Accuracy: 8433/10000 (84.33%)
+    Train: Loss=0.7509 Batch_id=390 Accuracy=74.67: 100%|██████████| 391/391 [00:17<00:00, 22.30it/s]
+    Test set: Average loss: 0.4691, Accuracy: 8430/10000 (84.30%)
 
     Epoch 49
-    Train: Loss=0.6658 Batch_id=390 Accuracy=74.79: 100%|██████████| 391/391 [00:17<00:00, 21.83it/s]
-    Test set: Average loss: 0.4591, Accuracy: 8407/10000 (84.07%)
+    Train: Loss=0.7786 Batch_id=390 Accuracy=74.07: 100%|██████████| 391/391 [00:18<00:00, 20.89it/s]
+    Test set: Average loss: 0.4697, Accuracy: 8415/10000 (84.15%)
 
     Epoch 50
-    Train: Loss=0.5489 Batch_id=390 Accuracy=74.91: 100%|██████████| 391/391 [00:19<00:00, 20.07it/s]
-    Test set: Average loss: 0.4467, Accuracy: 8476/10000 (84.76%)
+    Train: Loss=0.6208 Batch_id=390 Accuracy=74.74: 100%|██████████| 391/391 [00:19<00:00, 20.55it/s]
+    Test set: Average loss: 0.4506, Accuracy: 8483/10000 (84.83%)
+
+    Epoch 51
+    Train: Loss=0.6684 Batch_id=390 Accuracy=74.98: 100%|██████████| 391/391 [00:18<00:00, 20.60it/s]
+    Test set: Average loss: 0.4413, Accuracy: 8493/10000 (84.93%)
+
+    Epoch 52
+    Train: Loss=0.7188 Batch_id=390 Accuracy=74.80: 100%|██████████| 391/391 [00:18<00:00, 20.72it/s]
+    Test set: Average loss: 0.4524, Accuracy: 8459/10000 (84.59%)
+
+    Epoch 53
+    Train: Loss=0.7556 Batch_id=390 Accuracy=74.84: 100%|██████████| 391/391 [00:18<00:00, 21.48it/s]
+    Test set: Average loss: 0.4560, Accuracy: 8449/10000 (84.49%)
+
+    Epoch 54
+    Train: Loss=0.6456 Batch_id=390 Accuracy=74.83: 100%|██████████| 391/391 [00:17<00:00, 22.40it/s]
+    Test set: Average loss: 0.4650, Accuracy: 8433/10000 (84.33%)
+
+    Epoch 55
+    Train: Loss=0.7151 Batch_id=390 Accuracy=75.07: 100%|██████████| 391/391 [00:17<00:00, 21.76it/s]
+    Test set: Average loss: 0.4463, Accuracy: 8461/10000 (84.61%)
+
+    Epoch 56
+    Train: Loss=0.6696 Batch_id=390 Accuracy=75.17: 100%|██████████| 391/391 [00:17<00:00, 22.25it/s]
+    Test set: Average loss: 0.4539, Accuracy: 8451/10000 (84.51%)
+
+    Epoch 57
+    Train: Loss=0.7080 Batch_id=390 Accuracy=75.26: 100%|██████████| 391/391 [00:19<00:00, 20.58it/s]
+    Test set: Average loss: 0.4558, Accuracy: 8456/10000 (84.56%)
+
+    Epoch 58
+    Train: Loss=0.6368 Batch_id=390 Accuracy=75.36: 100%|██████████| 391/391 [00:18<00:00, 21.56it/s]
+    Test set: Average loss: 0.4405, Accuracy: 8507/10000 (85.07%)
+
+    Epoch 59
+    Train: Loss=0.5579 Batch_id=390 Accuracy=75.37: 100%|██████████| 391/391 [00:17<00:00, 22.40it/s]
+    Test set: Average loss: 0.4422, Accuracy: 8494/10000 (84.94%)
+
+    Epoch 60
+    Train: Loss=0.7456 Batch_id=390 Accuracy=75.64: 100%|██████████| 391/391 [00:17<00:00, 21.97it/s]
+    Test set: Average loss: 0.4458, Accuracy: 8468/10000 (84.68%)
+
+    Epoch 61
+    Train: Loss=0.7938 Batch_id=390 Accuracy=75.63: 100%|██████████| 391/391 [00:17<00:00, 22.13it/s]
+    Test set: Average loss: 0.4316, Accuracy: 8552/10000 (85.52%)
+
+    Epoch 62
+    Train: Loss=0.7390 Batch_id=390 Accuracy=75.53: 100%|██████████| 391/391 [00:18<00:00, 20.85it/s]
+    Test set: Average loss: 0.4465, Accuracy: 8482/10000 (84.82%)
+
+    Epoch 63
+    Train: Loss=0.7041 Batch_id=390 Accuracy=75.95: 100%|██████████| 391/391 [00:17<00:00, 21.79it/s]
+    Test set: Average loss: 0.4318, Accuracy: 8547/10000 (85.47%)
+
+    Epoch 64
+    Train: Loss=0.8725 Batch_id=390 Accuracy=76.02: 100%|██████████| 391/391 [00:18<00:00, 20.80it/s]
+    Test set: Average loss: 0.4231, Accuracy: 8564/10000 (85.64%)
+
+    Epoch 65
+    Train: Loss=0.6375 Batch_id=390 Accuracy=76.16: 100%|██████████| 391/391 [00:17<00:00, 21.94it/s]
+    Test set: Average loss: 0.4261, Accuracy: 8535/10000 (85.35%)
+
+    Epoch 66
+    Train: Loss=0.5413 Batch_id=390 Accuracy=75.85: 100%|██████████| 391/391 [00:18<00:00, 20.76it/s]
+    Test set: Average loss: 0.4213, Accuracy: 8575/10000 (85.75%)
+
+    Epoch 67
+    Train: Loss=0.5319 Batch_id=390 Accuracy=76.16: 100%|██████████| 391/391 [00:17<00:00, 21.86it/s]
+    Test set: Average loss: 0.4217, Accuracy: 8554/10000 (85.54%)
+
+    Epoch 68
+    Train: Loss=0.7903 Batch_id=390 Accuracy=76.03: 100%|██████████| 391/391 [00:20<00:00, 19.49it/s]
+    Test set: Average loss: 0.4163, Accuracy: 8559/10000 (85.59%)
+
+    Epoch 69
+    Train: Loss=0.7147 Batch_id=390 Accuracy=76.34: 100%|██████████| 391/391 [00:17<00:00, 21.94it/s]
+    Test set: Average loss: 0.4327, Accuracy: 8497/10000 (84.97%)
+
+    Epoch 70
+    Train: Loss=0.6117 Batch_id=390 Accuracy=76.43: 100%|██████████| 391/391 [00:18<00:00, 21.06it/s]
+    Test set: Average loss: 0.4319, Accuracy: 8535/10000 (85.35%)
+
+    Epoch 71
+    Train: Loss=0.7988 Batch_id=390 Accuracy=76.42: 100%|██████████| 391/391 [00:17<00:00, 22.06it/s]
+    Test set: Average loss: 0.4075, Accuracy: 8608/10000 (86.08%)
+
+    Epoch 72
+    Train: Loss=0.7026 Batch_id=390 Accuracy=76.29: 100%|██████████| 391/391 [00:19<00:00, 20.55it/s]
+    Test set: Average loss: 0.4273, Accuracy: 8556/10000 (85.56%)
+
+    Epoch 73
+    Train: Loss=0.7414 Batch_id=390 Accuracy=76.47: 100%|██████████| 391/391 [00:19<00:00, 20.22it/s]
+    Test set: Average loss: 0.4140, Accuracy: 8605/10000 (86.05%)
+
+    Epoch 74
+    Train: Loss=0.7923 Batch_id=390 Accuracy=76.38: 100%|██████████| 391/391 [00:19<00:00, 20.45it/s]
+    Test set: Average loss: 0.4036, Accuracy: 8620/10000 (86.20%)
+
+    Epoch 75
+    Train: Loss=0.6698 Batch_id=390 Accuracy=76.37: 100%|██████████| 391/391 [00:17<00:00, 21.82it/s]
+    Test set: Average loss: 0.4069, Accuracy: 8624/10000 (86.24%)
 
 # Performance Graphs
 ![Metrics](./Images/metrics.png)
