@@ -34,11 +34,11 @@ def _get_depthwise_separable_conv_block(in_channels, out_channels, kernel_size, 
 
 class Model(nn.Module):
     def __init__(self) -> None:
-        super(Model, self).__init__()
-        self.conv_block_1 = _get_conv_block(3, 16, 3, 1, 2, 0.1)
-        self.conv_block_2 = _get_conv_block(16, 32, 3, 2, 1, 0.1)
-        self.conv_block_3 = _get_depthwise_separable_conv_block(32, 48, 3, 2, 1, 0.1)
-        self.conv_block_4 = _get_conv_block(48, 64, 3, 1, 1, 0.1)
+        super(Model, self).__init__()                                                   # Input   --> Output     | Rin --> Rout
+        self.conv_block_1 = _get_conv_block(3, 16, 3, 1, 2, 0.1)                        # 32x32x3 --> 30x30x16   |  1  -->  9
+        self.conv_block_2 = _get_conv_block(16, 32, 3, 2, 1, 0.1)                       # 30x30x16--> 15x15x32   |  9  -->  15
+        self.conv_block_3 = _get_depthwise_separable_conv_block(32, 48, 3, 2, 1, 0.1)   # 15x15x32--> 8x8x48     |  15 -->  27
+        self.conv_block_4 = _get_conv_block(48, 64, 3, 1, 1, 0.1)                       # 8x8x48  --> 8x8x64     |  27 -->  51 
         self.gap = nn.Sequential(nn.AvgPool2d(kernel_size=8))
         self.conv_block_5 = nn.Sequential(nn.Conv2d(64, 10, 1, bias=False))
 

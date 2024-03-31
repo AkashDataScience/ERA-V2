@@ -91,6 +91,22 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
     Estimated Total Size (MB): 5.28
     ----------------------------------------------------------------
 
+# Receptive field calculation
+|layer|r_in|n_in|j_in|s|r_out|n_out|j_out|
+|-----|----|----|----|-|-----|-----|-----|
+|conv_1|1|32|1|1|3|32|1|
+|conv_2|3|32|1|1|5|32|1|
+|conv_3_dilation|5|32|1|1|9|30|1|
+|conv_4|9|30|1|1|11|30|1|
+|conv_5|11|30|1|1|13|30|1|
+|conv_6_stride|13|30|1|2|15|15|2|
+|conv_7|15|15|2|1|19|15|2|
+|conv_8|19|15|2|1|23|15|2|
+|conv_9_stride|23|15|2|1|27|15|4|
+|conv_10|27|8|4|1|35|8|4|
+|conv_11|35|8|4|1|48|8|4|
+|conv_12|48|8|4|1|51|8|4|
+
 # Training log
     Epoch 1
     Train: Loss=1.7162 Batch_id=390 Accuracy=33.76: 100%|██████████| 391/391 [00:22<00:00, 17.47it/s]
