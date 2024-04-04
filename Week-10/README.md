@@ -30,7 +30,7 @@
 7. NO score if your code is not modular. Your collab must be importing your GitHub package, and then just running the model. I should be able to find the custom_resnet.py model in your MASTER GitHub repo that you'd be training. 
 
 # Introduction
-The goal of this assignment is to implement ResNet model that was used by David Page in DawnBench competition. David page published an [article](https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/) about his approach and explained some minor changes to improve train time on model. We using a version of model from this article. 
+The goal of this assignment is to implement ResNet model that was used by David Page in DawnBench competition. David page published an [article](https://myrtle.ai/learn/how-to-train-your-resnet-8-bag-of-tricks/) about his approach and explained some minor changes to improve train time on model. We are using a version of model from this article. 
 
 Another important task is to use One Cycle Policy to reduce number of epochs required for training and learning rate finder to find maximum learning rate for one cycle policy. 
 
