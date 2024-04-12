@@ -412,4 +412,4 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
 ![Metrics](./Images/metrics.png)
 
 # Misclassified Images
-![LayerNorm](./Images/results.png)
+![Results](./Images/results.png)

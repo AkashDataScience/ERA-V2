@@ -215,4 +215,4 @@ Another important task is to use One Cycle Policy to reduce number of epochs req
 ![Metrics](./Images/metrics.png)
 
 # Misclassified Images
-![LayerNorm](./Images/results.png)
+![ResNet9](./Images/results.png)
