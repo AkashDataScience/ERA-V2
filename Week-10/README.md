@@ -34,13 +34,13 @@ The goal of this assignment is to implement ResNet model that was used by David 
 
 Another important task is to use One Cycle Policy to reduce number of epochs required for training and learning rate finder to find maximum learning rate for one cycle policy. 
 
-# Model architecture
+## Model architecture
 ![ResNet](./Images/ResNet.png)
 
-# Output of image augmentation
+## Output of image augmentation
 ![Albumentation](./Images/Augmentation.png)
 
-# Model summary
+## Model summary
     ----------------------------------------------------------------
             Layer (type)               Output Shape         Param #
     ================================================================
@@ -87,10 +87,10 @@ Another important task is to use One Cycle Policy to reduce number of epochs req
     Estimated Total Size (MB): 31.84
     ----------------------------------------------------------------
 
-# Learning rate finder
+## Learning rate finder
 ![lr_finder](./Images/learning_rate_finder.png)
 
-# Training log
+## Training log
     Epoch 1
     Current learning rate: [0.0001873817422860384]
     Train: Loss=1.0277 Batch_id=97 Accuracy=49.40: 100%|██████████| 98/98 [00:18<00:00,  5.26it/s]
@@ -211,8 +211,8 @@ Another important task is to use One Cycle Policy to reduce number of epochs req
     Train: Loss=0.2561 Batch_id=97 Accuracy=91.75: 100%|██████████| 98/98 [00:20<00:00,  4.88it/s]
     Test set: Average loss: 0.2959, Accuracy: 9057/10000 (90.57%)
 
-# Performance Graphs
+## Performance Graphs
 ![Metrics](./Images/metrics.png)
 
-# Misclassified Images
+## Misclassified Images
 ![ResNet9](./Images/results.png)

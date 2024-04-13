@@ -18,13 +18,13 @@
 # Introduction
 The goal of this assignment is make code moduler and use grad-CAM to diagnose model model predictions.
 
-# Model architecture
+## Model architecture
 ![ResNet](./images/ResNet.png)
 
-# Output of image augmentation
+## Output of image augmentation
 ![Albumentation](./images/augmentation.png)
 
-# Training log
+## Training log
     Epoch 1
     Train: Loss=1.7223 Batch_id=390 Accuracy=24.92: 100%|██████████| 391/391 [00:43<00:00,  9.09it/s]
     Test set: Average loss: 1.6358, Accuracy: 3873/10000 (38.73%)
@@ -105,11 +105,16 @@ The goal of this assignment is make code moduler and use grad-CAM to diagnose mo
     Train: Loss=0.3656 Batch_id=390 Accuracy=84.58: 100%|██████████| 391/391 [00:41<00:00,  9.38it/s]
     Test set: Average loss: 0.4316, Accuracy: 8581/10000 (85.81%)
 
-# Performance Graphs
+## Performance Graphs
 ![Metrics](./images/metrics.png)
 
-# Misclassified Images
+## Misclassified Images
 ![Results](./images/results.png)
 
-# Grad-CAM Images
+## Grad-CAM Images
 ![Grad-CAM](./images/grad_cam.png)
+
+## Acknowledgments
+This model is trained using repo listed below
+* [pytorch_cifar_master](https://github.com/AkashDataScience/pytorch_cifar_master)
+* [Grad-CAM](https://github.com/jacobgil/pytorch-grad-cam)

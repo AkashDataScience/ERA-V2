@@ -22,10 +22,10 @@
 # Introduction
 The goal of this assignment is to create a model with 4 convolution blocks and use dilation and depth wise seperable convolution. 
 
-# Output of image augmentation
+## Output of image augmentation
 ![Albumentation](./Images/Augmentation.png)
 
-# Model summary
+## Model summary
     ----------------------------------------------------------------
             Layer (type)               Output Shape         Param #
     ================================================================
@@ -91,7 +91,7 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
     Estimated Total Size (MB): 5.28
     ----------------------------------------------------------------
 
-# Receptive field calculation
+## Receptive field calculation
 |layer|r_in|n_in|j_in|s|r_out|n_out|j_out|
 |-----|----|----|----|-|-----|-----|-----|
 |conv_1|1|32|1|1|3|32|1|
@@ -107,7 +107,7 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
 |conv_11|35|8|4|1|48|8|4|
 |conv_12|48|8|4|1|51|8|4|
 
-# Training log
+## Training log
     Epoch 1
     Train: Loss=1.7162 Batch_id=390 Accuracy=33.76: 100%|██████████| 391/391 [00:22<00:00, 17.47it/s]
     Test set: Average loss: 1.5116, Accuracy: 4462/10000 (44.62%)
@@ -408,8 +408,8 @@ The goal of this assignment is to create a model with 4 convolution blocks and u
     Train: Loss=0.6698 Batch_id=390 Accuracy=76.37: 100%|██████████| 391/391 [00:17<00:00, 21.82it/s]
     Test set: Average loss: 0.4069, Accuracy: 8624/10000 (86.24%)
 
-# Performance Graphs
+## Performance Graphs
 ![Metrics](./Images/metrics.png)
 
-# Misclassified Images
+## Misclassified Images
 ![Results](./Images/results.png)
