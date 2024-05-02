@@ -1,16 +1,12 @@
 # Assignment
-1. (You have retrained your model on Lightning)
-2. You are using Gradio
-3. Your spaces app has these features:
-    1. ask the user whether he/she wants to see GradCAM images and how many, and from which layer, allow opacity change as well
-    2. ask whether he/she wants to view misclassified images, and how many
-    3. allow users to upload new images, as well as provide 10 example images
-    4. ask how many top classes are to be shown (make sure the user cannot enter more than 10)
-4. Add the full details on what your App is doing to Spaces README 
+1. Train any (pytorch or lightning) model on SageMaker and share the screenshot of the final logs.
+2. Train any (pytorch or lightning) model on EC2 and share the screenshot of the final logs.
 
 # Introduction
-The goal of this assignment is to use Lightning and train ResNet model on CIFAR10 dataser. Second goal 
-is to create a gradio app on huggingface spaces with features like top N classifications and grad-cam results.
+The goal of this assignment is to use Sagemaker and EC2 to train ResNet Model.
+
+## SageMaker training
+![SageMaker](./images/Sagemaker_training.png)
 
 ## Model summary
 
@@ -77,13 +73,7 @@ is to create a gradio app on huggingface spaces with features like top N classif
 ![Albumentation](./images/augmentation.png)
 
 ## Training log
-    Epoch 19: 100% 88/88 [00:36<00:00,  2.40it/s, v_num=0, val_loss=0.707, val_acc=0.751]
-
-## Performance Graphs
-Loss Graph  
-![Metrics](./images/loss_metrics.png)  
-Accuracy Graph  
-![Metrics](./images/acc_metrics.png)
+    Epoch 0: 100%|██████████| 704/704 [38:52<00:00,  0.30it/s, v_num=3, val_loss=2.310, val_acc=0.108]
 
 ## Misclassified Images
 ![Results](./images/results.png)
@@ -91,9 +81,9 @@ Accuracy Graph
 ## Grad-CAM Images
 ![Grad-CAM](./images/grad_cam.png)
 
-## Gradio App
-![Gradio-app](./images/gradio_app.png)  
-Gradio App can be found [here](https://huggingface.co/spaces/AkashDataScience/ERA_V2_S13)
+## EC2
+Ran simple example as I don't have G type instance for EC2. 
+![EC2](./images/EC2_example.png)
 
 ## Acknowledgments
 This model is trained using repo listed below
