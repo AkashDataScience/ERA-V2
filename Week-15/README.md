@@ -5,8 +5,9 @@
 
 # Introduction
 The goal of this assignment is to collect and annotate images for object detection. I decided to detect shirt/tshirt wore by humans standing in front of image. There are two main challenges in this problem:
-1. Detect tshirt only in front of image.
-2. Make sure model learns to detect tshirt and not torso. 
+1. Detect tshirt wore by people in front of image and not in background.
+2. Make sure model detect front side of tshirt and not back side.
+3. Make sure model learns to detect tshirt and not torso. 
 
 Once data is collected train YOLOv9 model.
 
@@ -147,6 +148,10 @@ Once data is collected train YOLOv9 model.
 
 ## Predictions
 ![Predictions](./images/val_batch0_pred.jpg)
+
+## Gradio App
+![Gradio-app](./images/gradio_app.png)  
+Gradio App can be found [here](https://huggingface.co/spaces/AkashDataScience/shirt-detection)
 
 ## Acknowledgments
 This model is trained using repo listed below
