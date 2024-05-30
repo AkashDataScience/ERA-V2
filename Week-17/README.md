@@ -4,7 +4,7 @@
 
 # Introduction
 The goal of this assignment is to implement trasformers model from scratch and train it for english
-to french translation
+to italian translation
 
 ## Training log
     Using device : cuda
