@@ -21,6 +21,7 @@ data properly. Build a BPE tokenizer with 5000+ tokens. Final compression should
     merge 3/4616: (111, 114) -> 386 (or) had 1991 occurrences
     merge 4/4616: (105, 110) -> 387 (in) had 1943 occurrences
     merge 5/4616: (111, 110) -> 388 (on) had 1789 occurrences
+    ...
     merge 4610/4616: (3602, 1460) -> 4993 ( Electronic) had 2 occurrences
     merge 4611/4616: (566, 1916) -> 4994 (ulford) had 2 occurrences
     merge 4612/4616: (1052, 3651) -> 4995 ( Provenzano) had 2 occurrences
@@ -44,6 +45,7 @@ data properly. Build a BPE tokenizer with 5000+ tokens. Final compression should
     ) had 12187 occurrences
     merge 4/4616: (385, 328) -> 387 ( है) had 7401 occurrences
     merge 5/4616: (32, 312) -> 388 ( स) had 6436 occurrences
+    ...
     merge 4610/4616: (384, 431) -> 4993 ( कड़) had 4 occurrences
     merge 4611/4616: (1606, 604) -> 4994 (व्यस्त) had 4 occurrences
     merge 4612/4616: (671, 635) -> 4995 (न्जी) had 4 occurrences
@@ -67,6 +69,7 @@ data properly. Build a BPE tokenizer with 5000+ tokens. Final compression should
     ) had 12187 occurrences
     merge 4/4616: (385, 328) -> 387 ( है) had 7401 occurrences
     merge 5/4616: (32, 312) -> 388 ( स) had 6436 occurrences
+    ...
     merge 4610/4616: (2070, 2131) -> 4993 (दरवाज़े) had 7 occurrences
     merge 4611/4616: (283, 321) -> 4994 (छु) had 7 occurrences
     merge 4612/4616: (284, 581) -> 4995 (जंग) had 7 occurrences
@@ -89,4 +92,4 @@ Gradio App can be found [here](https://huggingface.co/spaces/AkashDataScience/la
 
 ## Acknowledgments
 This model is trained using repo listed below
-* [nanoGPT](https://github.com/AkashDataScience/language_bpe)
+* [languageBPE](https://github.com/AkashDataScience/language_bpe)
