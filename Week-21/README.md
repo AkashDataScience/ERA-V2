@@ -47,4 +47,4 @@ Gradio App can be found [here](https://huggingface.co/spaces/AkashDataScience/GP
 
 ## Acknowledgments
 This model is trained using repo listed below
-* [languageBPE](https://github.com/AkashDataScience/gpt2_124M)
+* [GPT2](https://github.com/AkashDataScience/gpt2_124M)
