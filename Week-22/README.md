@@ -2,12 +2,13 @@
 ## Part 1
 <details>
 <summary>Expand</summary>
-1. Train your own UNet from scratch
-2. Train 4 times:
-    - MP+Tr+CE
-    - MP+Tr+Dice Loss
-    - StrConv+Tr+CE
-    - StrConv+Ups+Dice Loss
+
+1. Train your own UNet from scratch 
+2. Train 4 times: 
+    - MP+Tr+CE 
+    - MP+Tr+Dice Loss 
+    - StrConv+Tr+CE 
+    - StrConv+Ups+Dice Loss 
 
 ## Introduction
 The goal of this assignment is to implement Unet model from scratch for segmentation task. Train it
