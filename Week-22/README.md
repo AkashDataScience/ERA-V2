@@ -3,7 +3,7 @@
 <details>
 <summary>Expand</summary>
 
-1. Train your own UNet from scratch 
+1. Write your own UNet from scratch 
 2. Train 4 times: 
     - MP+Tr+CE 
     - MP+Tr+Dice Loss 
@@ -15,6 +15,9 @@ The goal of this assignment is to implement Unet model from scratch for segmenta
 with different type of losses and layers.
 
 ## MP+Tr+CE
+<details>
+<summary>Expand</summary>
+
 ### Train logs
     Epoch 1
     Train: Loss=0.5826 Batch_id=57: 100%|██████████| 58/58 [00:16<00:00,  3.46it/s]
@@ -54,7 +57,12 @@ with different type of losses and layers.
 ### Results
 ![MP+Tr+CE results](./images/MP_Tr_CE_results.png)
 
+</details>
+
 ## MP+Tr+Dice Loss
+<details>
+<summary>Expand</summary>
+
 ### Train logs
     CUDA Available? True
     Epoch 1
@@ -95,7 +103,12 @@ with different type of losses and layers.
 ### Results
 ![MP+Tr+Dice Loss results](./images/MP_Tr_Dice_Loss_results.png)
 
+</details>
+
 ## StrConv+Tr+CE
+<details>
+<summary>Expand</summary>
+
 ### Train logs
     CUDA Available? True
     Epoch 1
@@ -136,7 +149,12 @@ with different type of losses and layers.
 ### Results
 ![StrConv+Tr+CE results](./images/StrConv_Tr_CE_results.png)
 
+</details>
+
 ## StrConv+Ups+Dice Loss
+<details>
+<summary>Expand</summary>
+
 ### Train logs
     CUDA Available? True
     Epoch 1
@@ -171,6 +189,8 @@ with different type of losses and layers.
 
 ### Results
 ![StrConv+Ups+Dice Loss results](./images/StrConv_Ups_Dice_Loss_results.png)
+
+</details>
 </details>
 
 ## Acknowledgments
