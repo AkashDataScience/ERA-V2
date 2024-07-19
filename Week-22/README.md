@@ -193,6 +193,45 @@ with different type of losses and layers.
 </details>
 </details>
 
+## Part 2
+<details>
+<summary>Expand</summary>
+
+1. Design a varition of a VAE to take image and it's label as input
+2. Train 2 times:
+    - Train on MNIST data
+    - Train on CIFAR10 data
+3. Generate 25 images from each model
+
+## Introduction
+The goal of this assignment is to implement VAE model from scratch for image generation task. Train it
+with different public data.
+
+## MNIST data
+<details>
+<summary>Expand</summary>
+
+### train logs
+    Epoch 29: 100% 1500/1500 [01:26<00:00, 17.27it/s, loss=-949, v_num=0]
+
+### Results
+![MNIST results](./images/mnist_results.png)
+
+</details>
+
+## CIFAR10 data
+<details>
+<summary>Expand</summary>
+
+### train logs
+    Epoch 29: 100% 1250/1250 [01:30<00:00, 13.80it/s, loss=-2.93e+03, v_num=1]
+
+### Results
+![CIFAR10 results](./images/CIFAR10_results.png)
+
+</details>
+
 ## Acknowledgments
 This model is trained using repo listed below
 * [UNet](https://github.com/AkashDataScience/unet_pytorch)
+* [VAE](https://github.com/AkashDataScience/vae_pytorch)
