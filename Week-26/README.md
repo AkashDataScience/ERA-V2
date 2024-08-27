@@ -17,10 +17,10 @@ reinforcement learning agent. Customize given environment to train our agent.
 
 ## :video_camera: Demo
 ### Assignment 1
-![Grid World](./images/GridWordRL.mp4)
+[![Grid World](./images/gridworld_q_learning.png)](./images/GridWordRL.mp4)
 
 ### Assignment 2
-![Map Explorer](./images/map_explorer.mp4)
+[![Map Explorer](./images/SVNIT_map.png)](./images/map_explorer.mp4)
 
 ## Acknowledgments
 This model is trained using repo listed below

@@ -9,7 +9,7 @@ agent. Use T3D to train reinforcement learning agent. Agent should be able to go
 another point.
 
 ## :video_camera: Demo
-![Map Explorer](./images/map_explorer_T3D.mp4)
+[![Map Explorer](./images/SVNIT_map.png)](./images/map_explorer_T3D.mp4)
 
 ## Acknowledgments
 This model is trained using repo listed below
