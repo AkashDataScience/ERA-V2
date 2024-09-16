@@ -24,5 +24,5 @@ HuggingFace app.
 Gradio App can be found [here](https://huggingface.co/spaces/AkashDataScience/Phi-3_assistant)
 
 ## Acknowledgments
-This assignement is refering to code given in repo listed below
+This model is trained using repo listed below
 * [Phi-3 Fine Tuning](https://github.com/AkashDataScience/fine_tune_phi_3_oasst1)
